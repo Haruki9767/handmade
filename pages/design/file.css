@@ -148,3 +148,41 @@ footer img
     border-color: black;
     border-width: 0px;
 }
+
+/* Keep the existing desktop design while preventing overflow at smaller desktop widths. */
+.boxes
+{
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.fav1
+{
+    flex: 1 1 250px;
+    max-width: 370px;
+}
+
+@media (max-width: 1200px)
+{
+    h1, h2, h3, h4, h5, h6
+    {
+        font-size: clamp(72px, 10vw, 150px);
+    }
+
+    .para
+    {
+        font-size: clamp(32px, 4vw, 60px);
+    }
+
+    .link
+    {
+        font-size: clamp(32px, 4vw, 60px);
+    }
+
+    .bd
+    {
+        font-size: clamp(56px, 7vw, 100px);
+    }
+}
