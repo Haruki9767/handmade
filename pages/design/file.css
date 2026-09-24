@@ -1,9 +1,8 @@
-@font-face
-{
-  font-family: 'lime';
+@font-face {
+  font-family: "lime";
   src:
-       url('fonts/lime-fonts.woff')  format('woff'),
-       url('fonts/lime-fonts.ttf')   format('truetype');
+    url("../fonts/lime-fonts.woff") format("woff"),
+    url("../fonts/lime-fonts.ttf") format("truetype");
 }
 body
 { 
