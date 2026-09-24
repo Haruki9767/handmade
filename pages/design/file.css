@@ -1,0 +1,151 @@
+@font-face
+{
+  font-family: 'lime';
+  src:
+       url('fonts/lime-fonts.woff')  format('woff'),
+       url('fonts/lime-fonts.ttf')   format('truetype');
+}
+body
+{ 
+    /*background-image: url("bg-1.jpg");*/
+    /*background: linear-gradient(135deg, #ffdde1, #ee9ca7);  background-repeat: no-repeat;*/
+    background:black;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1, h2, h3, h4, h5, h6
+{ 
+    color: pink;
+    font-family: "Handlee";
+    font-weight: bold;
+    text-align: center;
+    font-size: 150px;
+}
+.para
+{
+    background: black;
+    border-style: outset;
+    border-radius: 2050px;
+    border-color: #F06C78;
+    border-width: 10px;
+    color: pink;
+    font-family: "lime";
+    font-style: italic;
+    font-size: 60px;
+    padding: 35px;
+    text-align: center;
+}
+.bd
+{ 
+    border-style: inset;
+    border-color: pink;
+    border-width: 0px;
+    font-size: 100px;
+}
+.fav1
+{
+    background: #F06C78;
+    color: pink;
+    font-family: "lime";
+    border: 10px solid;
+    font-size: 50px;
+    width: 250px;
+    height: 300px;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+.boxes
+{ 
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+} 
+.links
+{ 
+    color: white;
+}
+.link
+{ 
+    background: #F06C78;
+    font-family: "lime";
+    font-style: italic;
+    border-style: inset;
+    border-radius: 9999px;
+    border-color: black;
+    text-align: center;
+    border-width: 10px;
+    font-size: 60px;
+    padding: 10px;
+}
+footer
+{
+  width: 100%;
+}
+
+footer img
+{
+  width: 100%;       
+  height: 400px;      
+  object-fit: cover;
+  display: block;
+}
+::selection
+{
+  background: pink;
+  color: black;
+}
+.notes
+{
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 99px;
+  height: 99px;
+  transform: rotate(8deg);
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  border-radius: 9999px;
+  object-fit: cover;
+}
+.font
+{ 
+    font-family: "Handlee";
+}
+.bng {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.imgs {
+  flex: 0 0 calc(50% - 10px);
+  padding: 5px;
+   border-radius: 12px;
+  
+}
+
+.imgs img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  border-style: inset;
+  border-color: pink;
+  border-width: 5px;
+}
+.pink
+{ 
+    color: pink;
+}
+.footrtext
+{ 
+    border-color: black;
+    border-width: 0px;
+}
